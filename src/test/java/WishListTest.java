@@ -5,8 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WishListTest {
 
-        @Test
-        public void add_to_wishlist() {
+    @Test
+    public void add_to_wishlist() {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
